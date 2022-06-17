@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { useEffect, useState } from 'react';
 function App() {
+
+  const [first, setfirst] = useState("")
+  const handleChange = (e) => {
+    setfirst(e.target.value);
+  }
+
+  const dosearch = () =>{
+    console.log("First",first);
+  }
+
+  //fires once at page load
+  useEffect( () => {
+    setfirst("Test");
+  },[])
+
+  //fires when first changes
+  useEffect( () => {
+   //you could put dosearch() here instead of having a button
+  },[first])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <input onChange={(e) => handleChange(e)}></input>
+     <button onClick={dosearch}></button>
     </div>
   );
 }
