@@ -10,6 +10,7 @@ function App() {
 
   const dosearch = () =>{
     console.log("First",first);
+    alert("First " + first);
   }
 
   //fires once at page load
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="App">
      <input onChange={(e) => handleChange(e)}></input>
-     <button onClick={dosearch}></button>
+     <button onClick={dosearch}>Search</button>
     </div>
   );
 }
