@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-textbox-state-example/static/css/main.073c9b0a.css",
+    "main.js": "/react-textbox-state-example/static/js/main.f8e508fe.js",
+    "static/js/787.358605db.chunk.js": "/react-textbox-state-example/static/js/787.358605db.chunk.js",
+    "static/media/logo.svg": "/react-textbox-state-example/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-textbox-state-example/index.html",
+    "main.073c9b0a.css.map": "/react-textbox-state-example/static/css/main.073c9b0a.css.map",
+    "main.f8e508fe.js.map": "/react-textbox-state-example/static/js/main.f8e508fe.js.map",
+    "787.358605db.chunk.js.map": "/react-textbox-state-example/static/js/787.358605db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f8e508fe.js"
+  ]
+}
